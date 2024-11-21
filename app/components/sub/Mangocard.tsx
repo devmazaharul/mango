@@ -1,10 +1,6 @@
-
-import { Button } from '@/components/ui/button';
 import Image from 'next/image'
 import React from 'react'
 import { FaStar } from "react-icons/fa";
-import Buybutto from './Buybutto';
-
 
 type productType={
     url:string
