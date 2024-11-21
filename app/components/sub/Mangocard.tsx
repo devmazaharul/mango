@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import Image from 'next/image'
 import React from 'react'
 import { FaStar } from "react-icons/fa";
+import Buybutto from './Buybutto';
 
 
 type productType={
@@ -30,9 +31,7 @@ export default function Mangocard(prop:productType) {
             <FaStar className='text-lx text-yellow-500'/>
             <FaStar className='text-lx text-yellow-500'/>
           </div>
-       <div>
-        <Button variant="secondary" className='bg-gray-700 hover:text-gray-600 border text-gray-100 my-2'>Add to card</Button>
-       </div>
+      
         </div>
     </>
   )

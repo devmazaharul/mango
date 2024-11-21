@@ -4,6 +4,10 @@ import React from "react";
 import { IoBagAdd } from "react-icons/io5";
 
 export default function Nav() {
+
+ 
+  
+
   return (
     <div>
       <div className="flex items-center  justify-between px-8 py-3  text-gray-800 ">

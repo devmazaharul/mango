@@ -7,7 +7,7 @@ export default function page() {
         <div key={index} className=" rounded-md shadow-xl p-2">
           <h1 className="text-center text-xl font-semibold">
             {items.catagory.title}
-          </h1>
+          </h1>   
           <div
             
             className="grid gap-2 grid-cols-2 md:grid-cols-3  py-3 px-2 "
